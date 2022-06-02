@@ -1,6 +1,6 @@
-import List from './pages/List.js';
-import Leaderboard from './pages/Leaderboard.js';
-import Roulette from './pages/Roulette.js';
+import List from 'tscl.github.io/pages/List.js';
+import Leaderboard from 'tscl.github.io/pages/Leaderboard.js';
+import Roulette from 'tscl.github.io/pages/Roulette.js';
 
 export default [
     { path: 'tscl.github.io/', component: List },
