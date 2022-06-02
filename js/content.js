@@ -3,7 +3,7 @@ import { round, score } from './score.js';
 /**
  * Path to directory containing `_list.json` and all levels
  */
-const dir = '/tscl.github.io/json';
+const dir = '/tscl.github.io/data/json';
 
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`, {
