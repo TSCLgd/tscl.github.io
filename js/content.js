@@ -6,7 +6,7 @@ import { round, score } from './score.js';
 const dir = '/tscl.github.io/data';
 
 export async function fetchList() {
-    const listResult = await fetch(`${dir}._list.css`);
+    const listResult = await fetch(`${dir}/_list.css`);
     try {
         const list = await listResult.json();
         return await Promise.all(
