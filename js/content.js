@@ -6,12 +6,12 @@ import { round, score } from './score.js';
 const dir = '/tscl.github.io/data';
 
 export async function fetchList() {
-    const listResult = await fetch(`${dir}`);
+    const listResult = await fetch(`${dir}._list.css`);
     try {
         const list = await listResult.json();
         return await Promise.all(
             list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path}`);
+                const levelResult = await fetch(`${dir}/${path}.css`);
                 try {
                     const level = await levelResult.json();
                     return [
@@ -38,7 +38,7 @@ export async function fetchList() {
 
 export async function fetchEditors() {
     try {
-        const editorsResults = await fetch(`${dir}/_editors`);
+        const editorsResults = await fetch(`${dir}/_editors.css`);
         const editors = await editorsResults.json();
         return editors;
     } catch {
