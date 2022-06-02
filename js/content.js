@@ -6,7 +6,11 @@ import { round, score } from './score.js';
 const dir = '/tscl.github.io/data';
 
 export async function fetchList() {
-    const listResult = await fetch(`${dir}/index.json`);
+    const listResult = await fetch(`${dir}/_list.json`, {
+    headers: {
+      'Content-Type': 'application/json'
+    },
+});
     try {
         const list = await listResult.json();
         return await Promise.all(
