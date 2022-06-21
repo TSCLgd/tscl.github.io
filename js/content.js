@@ -15,7 +15,7 @@ export async function fetchList() {
     //},
 //});
     const list = [
-    "verdant_landscape" : {
+     {
     "id": 74803822,
     "name": "Shitty A2Marbl",
     "author": "chspchips",
