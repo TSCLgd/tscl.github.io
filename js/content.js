@@ -8,19 +8,32 @@ const dir = '/tscl.github.io/assets';
 export async function fetchList() {
     
     //const listResult = await fetch(`${dir}/_list.json`, {
-    const listResult = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/_list.json`, {
+    //const listResult = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/_list.json`, {
         
-    headers: {
-      'Content-Type': 'application/json'
-    },
-});
+    //headers: {
+    //  'Content-Type': 'application/json'
+    //},
+//});
+    const list = [
+    "verdant_landscape" : {
+    "id": 74803822,
+    "name": "Shitty A2Marbl",
+    "author": "chspchips",
+    "creators": [],
+    "verifier": "iRaily",
+    "verification": "https://youtu.be/U21gyCuwCO8",
+    "percentToQualify": 100,
+    "records": []
+}];
     try {
-        const list = await listResult.json();
+        //const list = await listResult.json();
         return await Promise.all(
             list.map(async (path, rank) => {
-                const levelResult = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/${path}.json`);
+                //const levelResult = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/${path}.json`);
                 try {
-                    const level = await levelResult.json();
+                    //const level = await levelResult.json();
+                    console.log('PATH',path);
+                    const level = path;
                     return [
                         {
                             ...level,
