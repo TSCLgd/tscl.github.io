@@ -8,12 +8,12 @@ const dir = '/tscl.github.io/assets';
 export async function fetchList() {
     
     //const listResult = await fetch(`${dir}/_list.json`, {
-    //const listResult = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/_list.json`, {
+    const listResult = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/_list.json`, {
         
-    //headers: {
-    //  'Content-Type': 'application/json'
-    //},
-//});
+    headers: {
+      'Content-Type': 'application/json'
+    },
+});
     const list = [
      {
     "id": 74803822,
