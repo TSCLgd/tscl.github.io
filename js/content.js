@@ -45,7 +45,9 @@ export async function fetchList() {
 
 export async function fetchEditors() {
     try {
-        const editorsResults = await fetch(`${dir}/_editors.css`);
+        
+        //const editorsResults = await fetch(`${dir}/_editors.css`);
+        const editorsResults = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/_editors.json`);
         const editors = await editorsResults.json();
         return editors;
     } catch {
