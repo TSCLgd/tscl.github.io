@@ -1,0 +1,17 @@
+{
+    "id": 78914063,
+    "name": "Shitty Asterios",
+    "author": "ChspChips",
+    "creators": [],
+    "verifier": "BlueTomcat",
+    "verification": "https://www.youtube.com/watch?v=l8ZwS2kPHNo",
+    "percentToQualify": 64,
+    "records": [
+        {
+            "user": "KylashTheKiller",
+            "link": "https://youtu.be/2eN0meZXczQ",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

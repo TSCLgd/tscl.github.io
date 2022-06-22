@@ -1,0 +1,59 @@
+{
+    "id": 78660021,
+    "name": "Shitty GONER",
+    "author": "Sulky",
+    "creators": [],
+    "verifier": "Sulky",
+    "verification": "https://www.youtube.com/watch?v=O9awiX3mnCo",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "KylashTheKiller",
+            "link": "https://www.youtube.com/watch?v=hNp4OYs2ECw",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Troy3",
+            "link": "https://youtu.be/qyG78-wSwak",
+            "percent": 100,
+            "hz": 180
+        },
+        {
+            "user": "Samuuu18",
+            "link": "https://youtu.be/-4C6_rFGj8Q",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "WauksGD",
+            "link": "https://www.youtube.com/watch?v=JiqcSxnmevE",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Vink",
+            "link": "https://youtu.be/z9xvvWdyCeE",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Armani",
+            "link": "https://youtu.be/WEN31g9PuwY",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Riptide",
+            "link": "https://youtu.be/a72PG6yxPO4",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Decin0",
+            "link": "https://youtu.be/SHRZFFo42T4",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
