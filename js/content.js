@@ -28,7 +28,7 @@ export async function fetchList() {
                 try {
                     const level = await levelResult.json();
                     //console.log('PATH',path);
-                    const level = path;
+                    //const level = path;
                     return [
                         {
                             ...level,
