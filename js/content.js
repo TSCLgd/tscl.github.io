@@ -3,12 +3,13 @@ import { round, score } from './score.js';
 /**
  * Path to directory containing `_list.json` and all levels
  */
-const dir = '/tscl.github.io/assets';
+//const dir = '/tscl.github.io/assets';
+const dir = 'https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data';
 
 export async function fetchList() {
     
-    //const listResult = await fetch(`${dir}/_list.json`, {
-    const listResult = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/_list.json`
+    const listResult = await fetch(`${dir}/_list.json`, {
+    //const listResult = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/_list.json`
 /*		, {
 			headers: {
 				'Content-Type': 'application/json'
@@ -17,25 +18,15 @@ export async function fetchList() {
 */
 	);
     
-    const list = [
-     {
-    "id": 74803822,
-    "name": "Shitty A2Marbl",
-    "author": "chspchips",
-    "creators": [],
-    "verifier": "iRaily",
-    "verification": "https://youtu.be/U21gyCuwCO8",
-    "percentToQualify": 100,
-    "records": []
-}];
     try {
-        //const list = await listResult.json();
+        const list = await listResult.json();
         return await Promise.all(
             list.map(async (path, rank) => {
                 //const levelResult = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/${path}.json`);
+                const levelResult = await fetch(`${dir}/${path}.json`);
                 try {
-                    //const level = await levelResult.json();
-                    console.log('PATH',path);
+                    const level = await levelResult.json();
+                    //console.log('PATH',path);
                     const level = path;
                     return [
                         {
@@ -62,8 +53,8 @@ export async function fetchList() {
 export async function fetchEditors() {
     try {
         
-        //const editorsResults = await fetch(`${dir}/_editors.css`);
-        const editorsResults = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/_editors.json`);
+        const editorsResults = await fetch(`${dir}/_editors.css`);
+        //const editorsResults = await fetch(`https://raw.githubusercontent.com/TSCLgd/tscl.github.io/main/data/_editors.json`);
         const editors = await editorsResults.json();
         return editors;
     } catch {
