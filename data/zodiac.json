@@ -1,0 +1,84 @@
+{
+    "id": 78376395,
+    "name": "Shitty Zodiac",
+    "author": "chspchips",
+    "creators": [],
+    "verifier": "Fh1r",
+    "verification": "https://www.youtube.com/watch?v=l4xOT6c9ZWA",
+    "percentToQualify": 56,
+    "password": "67993",
+    "records": [
+        {
+            "user": "Shel",
+            "link": "https://youtu.be/jov1l8FfY-Q",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "iRaily",
+            "link": "https://youtu.be/_NNFGCY3yJM",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "Holojen",
+            "link": "https://youtu.be/dOusWEglT6E",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "LzKlauss",
+            "link": "https://youtu.be/asOWLihAuiw",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Shemenzy",
+            "link": "https://www.youtube.com/watch?v=eq2EjAnNXnY&t=61s",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "RazerJCZ",
+            "link": "https://www.youtube.com/watch?v=v5qcKszOC5o",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "DeNora17",
+            "link": "https://www.youtube.com/watch?v=Or764lJGdxk",
+            "percent": 63,
+            "hz": 360
+        },
+        {
+            "user": "Samuuu18",
+            "link": "https://youtu.be/OVKV3XgUVJw",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "fakeiwnl",
+            "link": "https://www.youtube.com/watch?v=Lq-HOmYTj0A",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Solid",
+            "link": "https://youtu.be/GGCiiK8sbrY",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "gonza",
+            "link": "https://youtu.be/yNs22sE7jaM",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "attrixia",
+            "link": "https://youtu.be/P8d_Tce-REY",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

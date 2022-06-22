@@ -1,0 +1,23 @@
+{
+    "id": 78528379,
+    "name": "Shitty Play Hard",
+    "author": "DoubleSsymbol",
+    "creators": ["Infer355", "Lightclaww", "Davine_007"],
+    "verifier": "iRaily",
+    "verification": "https://youtu.be/k6oGyPqPsxU",
+    "percentToQualify": 61,
+    "records": [
+        {
+            "user": "LzKlauss",
+            "link": "https://www.youtube.com/watch?v=qYLfrUBS_U0&t=93s",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Kobra456",
+            "link": "https://www.youtube.com/watch?v=UvADZHtnOeA",
+            "percent": 100,
+            "hz": 288
+        }
+    ]
+}
