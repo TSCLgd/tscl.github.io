@@ -4,7 +4,9 @@ export const store = Vue.reactive({
     //dark: JSON.parse(localStorage.getItem('dark')) || false,
     dark: false,
     toggleDark() {
+        console.log('BEFORE DARK',this.dark);
         this.dark = !this.dark;
+        console.log('AFTER DARK',this.dark);
         localStorage.setItem('dark', JSON.stringify(this.dark));
     },
 });
