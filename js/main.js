@@ -10,7 +10,7 @@ export const store = Vue.reactive({
         localStorage.setItem('dark', JSON.stringify(this.dark));
     },
 });
-console.log('STORE', store);
+//console.log('STORE', store);
 const app = Vue.createApp({
     data: () => ({ store }),
 });
