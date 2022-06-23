@@ -24,7 +24,7 @@ export function score(rank, percent, minPercent) {
         return round(score - score / 3);
     }
 */
-    score = 100 - ((rank - 1) * 2);
+    let score = 100 - ((rank - 1) * 2);
     return round(score);
 }
 
