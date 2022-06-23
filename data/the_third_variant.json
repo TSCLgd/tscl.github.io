@@ -6,5 +6,11 @@
     "verifier": "Dimasga09",
     "verification": "https://www.youtube.com/watch?v=AKFuVjLQmd0",
     "percentToQualify": 73,
-    "records": []
+    "records": [                
+                {
+            "user": "Lonifer",
+            "link": "https://www.youtube.com/watch?v=xC4INI263oM",
+            "percent": 100,
+            "hz": 60
+                }]
 }
