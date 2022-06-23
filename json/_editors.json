@@ -1,22 +1,22 @@
 [
     {
         "role": "owner",
-        "name": "Liebe",
-        "link": "https://www.youtube.com/channel/UCjIgq0yLoWAh1aJ2hMySotw/videos"
+        "name": "Libe",
+        "link": "https://www.youtube.com/channel/UCjIgq0yLoWAh1aJ2hMySotw"
     },
     {
-        "role": "HeadModer",
+        "role": "admin",
         "name": "SakupenBoyGD",
-        "link": "https://www.youtube.com/channel/UC93nukwEgTZo4IlqcffwXsw"
+        "link": "https://www.youtube.com/channel/UC93nukwEgTZo4IlqcffwXsw/videos"
     },
     {
-        "role": "HeadCoder",
-        "name": "Dimasga09",
-        "link": "https://www.youtube.com/channel/UCk5CMQk1DPNVhWFItIPeRtQ"
-    },
-    {
-        "role": "Moder",
+        "role": "helper",
         "name": "Xiony",
         "link": "https://www.youtube.com/channel/UCLOXVKWMkyJoxb6NGEEEthg"
+    },
+    {
+        "role": "dev",
+        "name": "Dimasga09",
+        "link": "https://www.youtube.com/channel/UCk5CMQk1DPNVhWFItIPeRtQ"
     }
 ]
