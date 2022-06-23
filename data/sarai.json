@@ -12,5 +12,12 @@
             "link": "https://www.youtube.com/watch?v=YBiuNKTqDf0",
             "percent": 100,
             "hz": 60
-                }]
+                },
+                {
+            "user": "dimasga09",
+            "link": "https://www.youtube.com/watch?v=k9H12kFDo2c&list=PLarW4-zp0a_5nr-GqpF0MTYkRw0o6DEar&index=2",
+            "percent": 100,
+            "hz": 60
+                }
+               ]
 }
