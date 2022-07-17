@@ -6,6 +6,13 @@
     "verifier": "NeonSZN",
     "verification": "https://www.youtube.com/watch?v=Fh2DOyDnqMA",
     "percentToQualify": 50,
-    "records": [],
+    "records": [
+                {
+            "user": "Yoshi",
+            "link": "https://youtu.be/mkgPiYQfwRg",
+            "percent": 100,
+            "hz": 60
+                },
+               ],
     "password": "868989"
 }
