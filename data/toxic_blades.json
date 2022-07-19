@@ -6,7 +6,13 @@
     "verifier": "rFrozen",
     "verification": "https://www.youtube.com/watch?v=5lW7qLcpjLI",
     "percentToQualify": 63,
-    "records": [        
-                 ],
+    "records": [ 
+               {
+            "user": "Yoshi",
+            "link": "https://youtu.be/kj4u4B4lf-o",
+            "percent": 100,
+            "hz": 144
+                }
+                ],
     "password": "No copy"
 }
