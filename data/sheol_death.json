@@ -6,5 +6,36 @@
     "verifier": "piesy",
     "verification": "https://www.youtube.com/watch?v=QGF-jIFijAQ",
     "percentToQualify": 60,
-    "records": []
+    "records": [
+               {
+            "user": "PotatoKing",
+            "link": "https://youtu.be/U5I0kR2labE",
+            "percent": 100,
+            "hz": 60
+                },
+                {
+            "user": "DarkAngel",
+            "link": "https://youtu.be/HFCiIuqt98Y",
+            "percent": 100,
+            "hz": 60
+                },
+                {
+            "user": "Avex",
+            "link": "https://youtu.be/ruIwVIkEAwY",
+            "percent": 100,
+            "hz": 60
+                },
+                {
+            "user": "Auryal",
+            "link": "https://youtu.be/MpFQMFpUhao",
+            "percent": 100,
+            "hz": 60
+                },
+                {
+            "user": "TravelChimp",
+            "link": "https://youtu.be/NJzdqABJvzo",
+            "percent": 100,
+            "hz": 60
+                }
+               ]
 }
