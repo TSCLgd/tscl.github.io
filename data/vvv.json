@@ -1,0 +1,17 @@
+{
+    "id": 67186536,
+    "name": "Shitty VVV",
+    "author": "Tap33",
+    "creators": [],
+    "verifier": "Tap33",
+    "verification": "https://youtu.be/7qaAig5kREI",
+    "percentToQualify": 100,
+    "records": [
+                {
+            "user": "calamar",
+            "link": "https://youtu.be/TvNJs7M7tcU",
+            "percent": 100,
+            "hz": 60
+                }
+               ]
+}
