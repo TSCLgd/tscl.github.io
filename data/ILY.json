@@ -1,0 +1,17 @@
+{
+    "id": 66700247,
+    "name": "Shitty ILY",
+    "author": "Kobra456",
+    "creators": [],
+    "verifier": "Kobra456",
+    "verification": "https://www.youtube.com/watch?v=D2pB0k-WhjY",
+    "percentToQualify": 60,
+    "records": [   
+               {
+            "user": "NiXaNTy",
+            "link": "https://www.youtube.com/watch?v=Q-R2RdyScEw",
+            "percent": 100,
+            "hz": 360
+                }
+               ]
+}
