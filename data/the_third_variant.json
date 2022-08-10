@@ -18,7 +18,13 @@
             "link": "https://youtu.be/fqwHcKAam-s",
             "percent": 100,
             "hz": 144
+                },
+                {
+            "user": "NiXaNTy",
+            "link": "https://www.youtube.com/watch?v=d5yFCpKeNjg",
+            "percent": 100,
+            "hz": 360
                 }
-               ],
+                ],
     "password": "868989"
 }
