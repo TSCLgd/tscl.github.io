@@ -6,6 +6,12 @@
     "verifier": "bananGMD",
     "verification": "https://youtu.be/qI1LQ0Dt5X0",
     "percentToQualify": 60,
-    "records": [
+    "records": [   
+               {
+            "user": "LikerGD",
+            "link": "https://www.youtube.com/watch?v=tBOEqhmRpU8",
+            "percent": 100,
+            "hz": 120
+                }
                ]
 }
