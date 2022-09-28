@@ -18,6 +18,12 @@
             "link": "https://www.youtube.com/watch?v=p1mIonQiJz8",
             "percent": 100,
             "hz": 360
+                },
+                {
+            "user": "drachoman",
+            "link": "https://youtu.be/jZdN2u7luW8",
+            "percent": 100,
+            "hz": 60
                 }
                ]
 }
