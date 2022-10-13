@@ -6,6 +6,12 @@
     "verifier": "KrisGra",
     "verification": "https://youtu.be/YNVWEk1SMfE",
     "percentToQualify": 60,
-    "records": [
+    "records": [   
+               {
+            "user": "Fergat12",
+            "link": "https://youtube.com/watch?v=aVe7-sLOsnA&feature=share&utm_source=EKLEiJECCKjOmKnC5IiRIQ",
+            "percent": 100,
+            "hz": 120
+                }
                ]
 }
