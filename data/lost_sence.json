@@ -6,5 +6,12 @@
     "verifier": "Yoshi",
     "verification": "https://youtu.be/Wu48vQ9EQQk",
     "percentToQualify": 64,
-    "records": []
+    "records": [   
+               {
+            "user": "NiXaNTy",
+            "link": "https://www.youtube.com/watch?v=-JH4THybJ40",
+            "percent": 100,
+            "hz": 360
+                }
+               ]
 }
